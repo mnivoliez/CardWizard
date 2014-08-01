@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: unresolved_dependency___org_springframework_boot_spring_boot_starter_web_" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: unresolved_dependency___org_springframework_boot_spring_boot_starter_security_" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: unresolved_dependency___junit_junit_" level="project" />
+  </component>
+</module>
+

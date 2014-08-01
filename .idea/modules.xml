@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CardWizard.iml" filepath="$PROJECT_DIR$/CardWizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardwizard-client/cardwizard-client.iml" filepath="$PROJECT_DIR$/cardwizard-client/cardwizard-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardwizard-server/cardwizard-server.iml" filepath="$PROJECT_DIR$/cardwizard-server/cardwizard-server.iml" />
+    </modules>
+  </component>
+</project>
+
