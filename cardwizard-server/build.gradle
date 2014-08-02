@@ -15,7 +15,6 @@ repositories {
 }
 
 applicationDefaultJvmArgs = [
-
         "-DCARDWIZARD_HOME=${rootProject.rootDir}"
 ]
 

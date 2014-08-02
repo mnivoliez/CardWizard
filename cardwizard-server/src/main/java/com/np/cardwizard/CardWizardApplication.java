@@ -2,6 +2,7 @@ package com.np.cardwizard;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 
 /**
@@ -18,5 +19,6 @@ public class CardWizardApplication extends SpringApplication{
     public static void main(String[] args){
         new CardWizardApplication(CardWizardConfig.class).run(args);
         LOGGER.info("L'application a bien démarre.");
+
     }
 }
