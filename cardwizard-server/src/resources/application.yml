@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    testOnBorrow: true
+    testWhileIdle: true
+    validationQuery: SELECT 1
+  jpa:
+
+---
+
+spring:
+  profiles: default
+  datasource:
+    initialize: true
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cardwizard?useUnicode=true&characterEncoding=utf8
+    username: cardwizard
+    password: cardwizard
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+logging:
+  level:
+    com:
+      np:
+        cardwizard: DEBUG
+
+
+---
+
+spring:
+  profiles: production
+  datasource:
+    initialize: false
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cardwizard?useUnicode=true&characterEncoding=utf8
+    username: cardwizard
+    password: cardwizard
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none

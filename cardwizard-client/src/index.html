@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="cardwizardApp">
+
 <head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <base href="/"/>
+
+  <!-- build:css app.min.css -->
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/cardwizard.css">
+  <!-- /build -->
+
+  <title>test</title>
 </head>
-<body>
-    <p>Hello world</p>
+
+<body ng-controller="AppCtrl">
+
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <h2>CardWizard</h2>
+    <ul class="navbar-nav nav navbar-right">
+      <li>Account</li>
+      <li>Disconnect</li>
+    </ul>
+  </nav>
+</header>
+
+<div class="row">
+  <div class="mainContainer col-xs-12 col-md-12 container-fluid" role="main" data-ui-view=""></div>
+</div>
+
+<!-- Scroll to top anchor -->
+<div class="scroll-top-wrapper">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+  </span>
+</div>
+
+
+<footer>
+</footer>
+
 </body>
+
+<!-- build:js app.min.js -->
+<script src="lib/underscore/underscore.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-translate/angular-translate.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
+
+<script src="app/app.js"></script>
+<script src="app/common/i18n.js"></script>
+<script src="app/home/home.js"></script>
+<!-- /build -->
+
 </html>

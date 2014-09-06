@@ -1,0 +1,14 @@
+<div>
+  <section ng-repeat="card in cards">
+    <h4>{{ card.name }}</h4>
+
+    <p>{{ card.type }}</p>
+
+    <div>
+      <h6>Types</h6>
+
+      <p ng-repeat="type in card.types"> {{ type }}</p>
+    </div>
+    <hr/>
+  </section>
+</div>

@@ -1,33 +1,33 @@
 {
-    "name": "cardwizard",
-    "description": "CardWizard",
-    "authors": [
-        "NP"
-    ],
-    "private": true,
-    "dependencies": {
-        "jquery": "~2.1.1",
-        "jquery.debouncedresize": "~1.0.1",
-        "bootstrap": "~3.1.1",
-        "angular": "~1.2.19",
-        "angular-route": "~1.2.19",
-        "angular-resource": "~1.2.19",
-        "angular-bootstrap": "~0.11.0",
-        "angular-translate": "~2.2.0",
-        "angular-touch": "~1.2.18",
-        "angular-cookies": "~1.2.18",
-        "underscore": "~1.6.0",
-        "underscore.string": "~2.3.3",
-        "jquery-ui": "~1.11.0",
-        "angular-ui-slider": "~0.0.2",
-        "angular-ui-select2": "~0.0.5",
-        "select2-bootstrap-css": "~1.3.1",
-        "angular-bootstrap-switch": "~0.3.0",
-        "font-awesome": "~4.1.0",
-        "greensock": "~1.13.1",
-        "angular-ui-sortable": "~0.12.8"
-    },
-    "resolutions": {
-        "angular": "~1.2.19"
-    }
+  "name": "cardwizard",
+  "description": "CardWizard",
+  "authors": [
+    "NP"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery.debouncedresize": "~1.0.1",
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.19",
+    "angular-resource": "~1.2.19",
+    "angular-bootstrap": "~0.11.0",
+    "angular-translate": "~2.2.0",
+    "angular-touch": "~1.2.18",
+    "angular-cookies": "~1.2.18",
+    "underscore": "~1.6.0",
+    "underscore.string": "~2.3.3",
+    "jquery-ui": "~1.11.0",
+    "angular-ui-slider": "~0.0.2",
+    "angular-ui-select2": "~0.0.5",
+    "select2-bootstrap-css": "~1.3.1",
+    "angular-bootstrap-switch": "~0.3.0",
+    "font-awesome": "~4.1.0",
+    "greensock": "~1.13.1",
+    "angular-ui-sortable": "~0.12.8",
+    "angular-ui-router": "~0.2.11"
+  },
+  "resolutions": {
+    "angular": "~1.2.19"
+  }
 }
